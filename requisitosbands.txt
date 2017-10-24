@@ -1,0 +1,88 @@
+				Bands 
+
+			      Requisitos
+ 
+1-Cadastro de usuário: 
+
+	Descrição: O usuário ira se cadastrar colocando seus dados pessoas. 
+	Entrada: Nome de usuário, e-mail e senha. 
+	Processo: O cadastro será incluído no banco de dados. 
+	Saída: Mensagem de confirmação de sucesso de cadastro de cadastro ou mensagem de erro. 
+ 
+2- Cadastro de Banda:
+ 
+	Descrição: Após o cadastro o usuário poderá cadastrar sua banda junto com seus integrantes. 
+	Entrada: Nome da banda, estilo musical que toca e localização, fusão de cada integrante, opção + para cadastrar os integrantes. 
+	Processo: O sistema irá verificar o cadastro da banda e irá fazer uma busca a opção desejada. 
+	Saída: Mensagem de confirmação de cadastro ou mensagem de erro caso o usuário não complete corretamente todos os campos. 
+ 
+3- Cadastro da agenda da banda:
+ 
+	Descrição: A banda fornecerá sua lista de futuros eventos. 
+	Entrada: Datas, horários e localização dos eventos: 
+	Processo: A banda mostrará todos os eventos já feitos e que ainda será realizado. 
+	Saída: Fechar agenda. 
+ 
+4- Cadastro de musico:
+ 
+	Descrição: O usuário informará seus dados pessoas e tipo de instrumento que toca. 
+	Entrada: Nome do musico, que instrumento toca e onde reside. 
+	Processo: O musico irá se cadastrar em um novo banco de dados. 
+	Saída: Mensagem de sucesso de cadastro ou mensagem de erro. 
+ 
+ 
+5- Cadastro da agenda do musico
+ 
+	Descrição: O usuário fornecerá sua lista de eventos e shows que irá fazer ou que já fez. 
+	Entrada: Datas, horários de shows do musico. 
+	Processo: O sistema mostrará seus eventos a serem realizados. 
+	Saída: Fechar agenda 
+
+6- Alteração de dados
+
+	Descrição: O usuário poderá alterar seus dados cadastrados caso necessário.
+	Entrada: Campo desejado e o novo dado.
+	Processo: Atualização dos dados pessoas no banco de dados.
+	Saída: Mensagem de confirmação de mudanças de dados ou mensagem de dados não confirmados.
+
+7- Exclusão 
+
+	Descrição: O usuário poderá efetuar a exclusão de seu cadastro.
+	Entrada: Nome de usuário.
+	Processo: O sistema irá verificar se o usuário está cadastrado no APP, se estiverserá excluido.
+	Saída: mensagem de confirmação de exclusão bem sucedida.
+
+8- Busca de banda por estilo
+
+	Descrição: O usuário poderá buscar uma determinada banda pelo seu estilo através do campo (buscar banda por estilo).
+	Entrada: Campo (palavra-chave) ao qual o usuário deseja fazer a busca.
+	Processo: O sistema irá fazer a busca e retornarar o resultado ao usuário.
+	Saída: Mensagem busca realizada com sucesso ou mensagem estilo não encontrado.
+
+9- busca de banda por nome
+
+	Descrição: O usuário poderá fazer sua busca de banda pelos seu nome
+	Entrada: Campo (palavra-chave), nome da banda, o usuário poderá escolher o nome da banda refeente a busca.
+	Processo: O sistema busca a opção desejada referente ao pedido do usuário e mostrara o resultado.
+	Saída: mensagem de busca encontrada com sucesso ou mensagem de busca não encontrada.
+
+10- Busca de musico por estilo
+
+	Descrição: o Usuário irá fazer sua busca de musico junto de seu estilo musical.
+	Entrada: utilização (palavra-cheve) busca musico por estilo ao qual o usuário deseja fazer a busca .
+	Processo: O sistema irá fazer a busca desejada pelo usuário mostrando o resultado.
+	Saída: mensagem de busca realizada com sucesso ou busca não encontrada.
+
+11-Lista de banda por estilo
+
+	Descrição: O usuário poderá listar várias bandas com o estilo musical referente a sua busca.
+	Entrada: (palavra-chave) buscar estilo de banda.
+	Processo:O sistema irá mostrar o resultado referente a busca.
+	Saída: mensagem busca realizada com sucesso.
+
+12- Busar por instrumentos
+
+	Descrição: O usuário poderá fazer uma busca de instrumento musical sua escolha.
+	Entrada: Com a (palavra-chave) Buscar Instrumento, o usuário poderá fazer sua escolha referente a busca.
+	Processo: O sistema irá mostrar uma lista de instrumentos e onde compra-los.
+	Saída: Mensagem de busca realizada com sucesso ou mensagem busca não encontrada.
